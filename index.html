@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff3c9">
+  <meta name="description" content="A little anniversary letter made with love.">
+
+  <title>A Little Letter for You ♡</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Parisienne&display=swap" rel="stylesheet">
+
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Falling flowers -->
+  <div class="flower-layer" id="flowerLayer" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- INTRODUCTION / ENVELOPE SCREEN -->
+    <section class="intro" id="intro">
+
+      <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+      <h1>To my favorite <span>person</span></h1>
+
+      <p class="intro-copy">
+        A small letter, wrapped in a little bit of sunshine.
+      </p>
+
+      <button class="envelope-button" id="openLetter"
+        aria-label="Open your anniversary letter">
+
+        <span class="envelope-hint">tap to open</span>
+
+        <span class="envelope" aria-hidden="true">
+
+          <span class="envelope-back"></span>
+
+          <span class="letter-peek">
+            <span>for you ♡</span>
+          </span>
+
+          <span class="envelope-front"></span>
+
+          <span class="envelope-flap"></span>
+
+          <span class="envelope-seal">♡</span>
+
+        </span>
+      </button>
+
+      <p class="tiny-note">made with love, just for you</p>
+
+    </section>
+
+
+    <!-- LOVE LETTER SECTION -->
+    <section class="letter-section hidden" id="letterSection">
+
+      <div class="topline">
+        <span>✿</span> OUR LITTLE STORY <span>✿</span>
+      </div>
+
+      <article class="letter-card">
+
+        <div class="card-decoration">♡</div>
+
+        <p class="letter-date" id="todayDate"></p>
+
+        <h2>A letter for <em>you</em></h2>
+
+        <div class="letter-body" id="letterText" aria-live="polite"></div>
+
+        <p class="signature">
+          always, <span>me ♡</span>
+        </p>
+
+        <div class="card-footer">
+          a little reminder that you are appreciated
+        </div>
+
+      </article>
+
+
+      <!-- ANNIVERSARY COUNTER -->
+      <section class="counter-card">
+
+        <p class="eyebrow">EVER SINCE THE DAY WE BEGAN</p>
+
+        <h2>Our time together</h2>
+
+        <div class="counter">
+
+          <div>
+            <strong id="days">0</strong>
+            <span>days</span>
+          </div>
+
+          <div>
+            <strong id="hours">0</strong>
+            <span>hours</span>
+          </div>
+
+          <div>
+            <strong id="minutes">0</strong>
+            <span>minutes</span>
+          </div>
+
+          <div>
+            <strong id="seconds">0</strong>
+            <span>seconds</span>
+          </div>
+
+        </div>
+
+        <p class="counter-caption" id="counterCaption"></p>
+
+      </section>
+
+
+      <!-- PHOTO GALLERY -->
+      <section class="gallery-section">
+
+        <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+
+        <h2>Pieces of <em>us</em></h2>
+
+        <p class="section-note">
+          A few moments I want to keep close.
+        </p>
+
+        <div class="gallery" id="gallery">
+
+          <figure class="photo-card">
+            <img
+              src="images/memory-1.jpg"
+              alt="A favorite memory together"
+              onerror="this.parentElement.classList.add('photo-placeholder'); this.remove();">
+
+            <figcaption>one of my favorite days ♡</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img
+              src="images/memory-2.jpg"
+              alt="Another favorite memory together"
+              onerror="this.parentElement.classList.add('photo-placeholder'); this.remove();">
+
+            <figcaption>another little moment</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img
+              src="images/memory-3.jpg"
+              alt="A special memory together"
+              onerror="this.parentElement.classList.add('photo-placeholder'); this.remove();">
+
+            <figcaption>one to remember</figcaption>
+          </figure>
+
+        </div>
+
+        <p class="photo-help">
+          Add your photos to the images folder and name them
+          memory-1.jpg, memory-2.jpg, and memory-3.jpg.
+        </p>
+
+      </section>
+
+
+      <!-- ENDING SECTION -->
+      <section class="ending">
+
+        <div class="ending-flower">✿</div>
+
+        <h2>Here's to more <em>little things.</em></h2>
+
+        <p>
+          More memories, more laughter, and more reasons
+          to be grateful for each other.
+        </p>
+
+        <p class="ending-sign">
+          Happy anniversary ♡
+        </p>
+
+        <!-- MUSIC BUTTON -->
+        <button class="music-button" id="musicButton" type="button">
+          ♫ Play our song
+        </button>
+
+        <audio id="backgroundMusic" loop preload="none">
+          <source src="music.mp3" type="audio/mpeg">
+        </audio>
+
+        <p class="music-help">
+          Add your own audio file named music.mp3
+          to the main folder.
+        </p>
+
+      </section>
+
+      <footer>
+        made especially for you <span>♡</span>
+      </footer>
+
+    </section>
+
+  </main>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
