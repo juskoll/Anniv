@@ -11,19 +11,17 @@
 const ANNIVERSARY_DATE = "2025-11-18";
 
 // Your personal anniversary letter
-const LOVE_LETTER = `Dear you,
+const LOVE_LETTER = `Dear Shenna,
 
-Happy anniversary!
+It’s crazy to imagine that we were once strangers sitting in the same room for almost a decade, but it’s even harder to imagine how that opportunity turned us into something greater. Your sweet and gentle ambience pulled my heartstrings to you just like a yoyo. 
 
-I wanted to make something small but meaningful to remind you how much I appreciate having you in my life.
+The smile that you always show is that most precious thing that my eyes perceive. Why, you ask? You have suffered countless hardships, sadness, disappointment, and misfortune. And yet, you still find a way to smile in spite of that by seeing the good in everything. I love how you still treat others so kindly because of the compassion you share with people unconditionally.
 
-Thank you for the memories, the laughter, the conversations, and even the ordinary days that become special simply because we share them.
+Every single day of my life has been so amazing with you. I thank God for making fate bring us together. I can’t imagine a day in my life without you, which is surprising because I expected that I would just be admiring you quietly, with all of my feelings unreciprocated till the very end.
 
-I appreciate the person you are and all the little things that make you, you.
+Every single muscle in my heart pumps out blood all for the sake of seeing your sweet smile day by day.
 
-I hope we continue to learn, grow, and make more memories together.
-
-Thank you for being part of my story. Here's to another chapter filled with kindness, patience, and happiness.
+I’m so happy to be a part of your life. One year will never be enough for me. I want us to grow old together. I love you, Shenna.
 
 With love,
 me ♡`;
